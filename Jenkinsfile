@@ -16,7 +16,7 @@ node{
         {
             sh "docker login -u upasanatestdocker -s ${DHPWD}"
         }
-        sh 'docker push vardhanns/phpmysql_app'
+       ##### sh 'docker push vardhanns/phpmysql_app'
         */
         //docker.withRegistry( 'https://registry.hub.docker.com', 'DockerHubPassword' ) {
              
